@@ -1,14 +1,3 @@
-<!--
-  Hello!
-  -
-  Simplefolio is a clean and responsive portfolio template for Developers!
-  Created by Jacobo Martinez.
-  -
-  Github Repo: https://github.com/cobiwave/simplefolio/
-  Readme: https://github.com/cobiwave/simplefolio/README.md
-  -
-  For business & inquires, contact me -> jacobojavier98@gmail.com
--->
 <!DOCTYPE html>
 <html lang="en" class="sr">
   <head>
@@ -18,11 +7,11 @@
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
     <!-- Todo: put here your site title -->
-    <title>[Your name here] | Developer</title>
+    <title>Erick Cifuentes | Developer</title>
     <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
+    <meta name="keywords" content="ErickCif, Erick Cifuentes, Java, Python, C, SQL" />
     <!-- Todo: improve your SEO by adding a small description of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+    <meta name="description" content="Erick Cifuentes | Developer" />
 
     <link
       rel="stylesheet"
@@ -39,16 +28,16 @@
   </head>
 
   <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
-  <body>
+  <body style="background-color: #121212">
     <div id="top"></div>
 
     <!-- **** Hero Section **** -->
     <section id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
+          Hi, I'm <span class="text-color-main">Erick Cifuentes</span>.
           <br />
-          I'm the Unknown Developer.
+          I'm a <span class="text-color-main">Software Engineer</span> obsessed with <span class="text-color-main">Algorithms and Complexity Theory</span>.
         </h1>
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
@@ -77,13 +66,17 @@
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info load-hidden">
+            <div class="about-wrapper__info load-hidden" style="padding-bottom: 80px">
               <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you have!
+                Born and raised in San Diego, California, I am a first-generation undergrad at Columbia University.
+                In the next few years I hope to pursue a Masters in Computer Science and eventually a Masters in Business Administration.
+                I'm most interested in the role of a Product Manager, but I'm also open to other roles in the tech industry, particularly those that involve software engineering.
+
               </p>
               <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
+                When I'm not programming, I enjoy playing volleyball, video games, and the drums.
+                After my time at Columbia, I've also become interested in
+                finance, astronomy, and philosophy.
               </p>
               <span class="d-flex mt-3">
                 <a
@@ -106,41 +99,33 @@
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
+          <h2 class="section-title text-color-main">Work & Projects</h2>
 
           <!-- Notice: each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
+                <h3 class="project-wrapper__text-title"><span class="text-color-main">Air AI Front-end</span></h3>
                 <div>
-                  <p class="mb-4">
-                    Describe the project being very specific, you can use the Twitter standard: no more than 280 characters: 
-                    complement the information: the skills learned or reinforced in its realization and how you faced it, 
-                    prove to be proactive in the search for solutions.
+                  <p class="mb-4" style="color: #E1E1E1">
+                    Initially brought on as a QA Engineer, I, at first, only tested the front-end of the application and products of Air
+                    while searching for possible bugs clients might encounter. Later on, I played a PM-like role in onboarding the clients
+                    with the hopes of tailoring their experience based on their business and particular needs.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://midas.air.ai/"
                 >
                   See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://midas.air.ai/" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -151,7 +136,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/air.png"
                     />
                   </div>
                 </a>
@@ -164,35 +149,27 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
+                <h3 class="project-wrapper__text-title"><span class="text-color-main" style="text-align: center">rSchoolToday School Finder Full-Stack</span></h3>
                 <div>
-                  <p class="mb-4">
-                    Demonstrate in this description the skills of a programmer: such as having commitment, 
-                    having perseverance and accepting alternative solutions. Remember that being a portfolio you are not selling the project, 
-                    you are selling yourself, it reflects the resources used: Frameworks, libraries, platforms, etc.
+                  <p class="mb-4" style="color: #E1E1E1">
+                    Integrated 20000+ high schools from the rST database into a school finder web application to serve as the landing page
+                    for the donations project I was working on as an intern. Along with this application was the internal migration from
+                    TypeORM to Java Spring Boot.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://donate.rschooltoday.com/"
                 >
                   See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://donate.rschooltoday.com/" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -203,7 +180,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/rst.png"
                     />
                   </div>
                 </a>
@@ -216,18 +193,19 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
+                <h3 class="project-wrapper__text-title"><span class="text-color-main">QueueR: Who's Got AUX?</span></h3>
                 <div>
-                  <p class="mb-4">
-                    If the project was collaborative, reflect it in this description, that will demonstrate communication and/or leadership skills. 
-                    Additionally, if you made use of the mastery of a second language, it will reflect on you professionalism.
+                  <p class="mb-4" style="color: #E1E1E1">
+                    Prototype of a web application that allows users to queue up songs based on recommendations from other users.
+                    Users can host their own sessions and get songs based around the Spotify API.
+                    Full-stack application built in my Open Source Web Development and Intro to Databases classes at Columbia.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://queue-r.vercel.app/"
                 >
                   See Live
                 </a>
@@ -235,7 +213,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/ErickCif/queue-r"
                 >
                   Source Code
                 </a>
@@ -243,7 +221,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://queue-r.vercel.app/" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -254,7 +232,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/qr.png"
                     />
                   </div>
                 </a>
@@ -270,14 +248,14 @@
     <!-- **** Contact Section **** -->
     <section id="contact">
       <div class="container">
-        <h2 class="section-title">Contact</h2>
+        <h2 class="section-title">Contact Me</h2>
         <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
+          <p class="contact-wrapper__text">Open to work, open to chat, open to everything CS.</p>
           <a
             rel="noreferrer"
             target="_blank"
             class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
+            href="mailto:erickcifwork@gmail.com"
             >Call to Action</a
           >
         </div>
@@ -292,50 +270,16 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="https://www.linkedin.com/in/erickacifuentes/" target="_blank">
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="https://github.com/erickcif" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
 
         <hr />
 
-        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
-        <p class="footer__text">
-          © 2021 - Template developed by
-          <a rel="noreferrer" href="https://github.com/cobiwave" target="_blank"
-            >Jacobo Martínez</a
-          >
-        </p>
-
-        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobiwave/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            rel="noreferrer" 
-            class="github-button"
-            href="https://github.com/cobiwave/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobiwave/simplefolio on GitHub"
-            >Star</a
-          >
-        </p>
       </div>
     </footer>
     <!-- /END Footer Section -->
